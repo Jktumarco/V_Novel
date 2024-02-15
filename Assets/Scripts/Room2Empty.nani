@@ -1,0 +1,13 @@
+
+
+@back Back_2
+@printer Dialogue
+Hmm...Where is everyone...?
+
+Strange...
+@set room_1_currentScript="Room1Choisen"
+@set room_2_currentScript="Room2Default"
+@showUI ButtonMap
+@set "logText=\"Go to location - 1\""
+@showUI Log
+@stop

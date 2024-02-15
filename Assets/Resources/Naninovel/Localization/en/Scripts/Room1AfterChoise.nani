@@ -1,0 +1,7 @@
+; English <en> to English <en> localization document for `Room1AfterChoise` naninovel script
+
+# e32362c5
+; @print Aх... printer:Dialogue reset:true waitInput:false if:ellaIsItem=false
+
+# 19077c81
+; @print "Thank you" printer:Dialogue reset:true waitInput:false if:ellaIsItem=true

@@ -1,0 +1,10 @@
+
+
+@back Back_1
+@set a=""
+@input a summary:"What is your name" wait:true
+@stop
+Welcome {a} [skipInput] 
+
+@goto Room1 wait:true
+@stop

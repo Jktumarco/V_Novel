@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `Room2AfterChoise` naninovel script
+
+# 873c4f3e
+; @print "Thank you)" printer:Dialogue waitInput:false if:emmaIsItem=true
+@print "Спасибки)" printer:Dialogue waitInput:false if:emmaIsItem=true
+
+# 4d1db678
+; @print "Zyyy..." printer:Dialogue waitInput:false if:emmaIsItem=false
+@print "Зыыы..." printer:Dialogue waitInput:false if:emmaIsItem=false

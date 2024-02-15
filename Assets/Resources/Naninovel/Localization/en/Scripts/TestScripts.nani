@@ -1,0 +1,23 @@
+; Russian <ru> to English <en> localization document for `TestScripts` naninovel script
+
+# 14adc09f
+; Now showing input rebinding UI.
+Now showing input rebinding UI.
+# 78b382ea
+; Test choices.
+ Test choices.
+# 5e009bcb
+; @choice 1
+@choice 1
+# 233d9cc2
+; @choice 2
+ @choice 2
+# 6038766b
+; Test after choice.
+Test after choice.
+# 406cbee7
+; @input a summary:"Test input" value:Default
+@input a summary:"Test input" value:Default
+# 1fd1e37a
+; You've set {a}.
+You've set {a}.

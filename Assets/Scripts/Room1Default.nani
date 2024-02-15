@@ -1,0 +1,8 @@
+
+
+@showUI Log
+@back Back_1
+@char ella.positive_1 look:right pos:20.20 wait:false
+@hidePrinter Dialogue
+@showUI ButtonMap
+@stop

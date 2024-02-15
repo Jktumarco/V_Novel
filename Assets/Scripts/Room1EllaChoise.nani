@@ -1,0 +1,9 @@
+@hideUI Log
+@char emma visible:false
+@char ella.positive_2 look:right pos:20.20 wait:true
+
+@showUI ButtonMap
+@set room_1_currentScript="Room1AfterChoise"
+@set ellaIsItem=true
+@set room_2_currentScript="Room2AfterChoise"
+@stop

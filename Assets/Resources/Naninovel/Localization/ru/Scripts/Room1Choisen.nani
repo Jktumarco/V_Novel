@@ -1,0 +1,21 @@
+; English <en> to Russian <ru> localization document for `Room1Choisen` naninovel script
+
+# 2b95f6ca
+; ella: What do you have? Will you share?
+Элла: Что у тебя ? Поделишься?
+
+# 49b29005
+; emma: I want it too!!!)
+эмма: я тоже этого хочу!!!)
+
+# e75741ca
+; @choice "Give to Ella" goto:Room1EllaChoise
+@choice "Отдать Элле" goto:Room1EllaChoise
+
+# c43b292
+; @choice "To keep for yourself" goto:Room1MyChoise
+@choice "Оставить себе" goto:Room1MyChoise
+
+# e036bca4
+; @choice "Give to Emma" goto:Room1EmmaChoise"
+@choice "Отдать Эмме" goto:Room1EmmaChoise"

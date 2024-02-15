@@ -1,0 +1,15 @@
+
+
+@back Back_1
+@char ella.positive_1 look:right pos:20.20
+@set room_1_currentScript="Room1Default"
+@set room_2_currentScript="Room2"
+@set room_3_currentScript="Room3"
+Hi! I have a task for you. You need to go to location 2 and play a mini game
+
+@hidePrinter Dialogue time:1 wait:true
+@resetText Dialogue
+@showUI ButtonMap
+@set "logText=\"Need to go to location 2\""
+@showUI Log
+@stop

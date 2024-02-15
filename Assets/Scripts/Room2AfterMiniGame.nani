@@ -1,0 +1,14 @@
+
+
+@back Back_2
+
+@char emma.positive_1 look:right pos:80.80
+@printer Dialogue hideOther:false
+Now you need to go to location 3[skipInput]
+@hidePrinter  wait:true
+@set "logText=\"Go to location - 3\""
+@showUI Log
+@showUI ButtonMap
+@set room_3_available=true
+@set room_2_currentScript="Room2Default"
+@stop

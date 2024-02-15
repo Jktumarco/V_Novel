@@ -1,0 +1,13 @@
+
+
+@back Back_2
+
+@char ella.positive_2 look:right pos:20.20 if:ellaIsItem=true
+@char ella.sadness look:left pos:20.20 if:ellaIsItem=false
+@resetText Dialogue
+@print Aх... printer:Dialogue reset:true waitInput:false if:ellaIsItem=false
+@print "Thank you" printer:Dialogue reset:true waitInput:false if:ellaIsItem=true
+@wait 1
+@hidePrinter 
+@showUI ButtonMap
+@stop

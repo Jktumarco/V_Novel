@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `OnBegin` naninovel script
+
+# 4bb32b29
+; @input a summary:"What is your name" wait:true
+@input a summary:"Как тебя зовут?" wait:true
+
+# 6cc032e9
+; Welcome {a} [skipInput] 
+Добро пожаловать {a} [skipInput]

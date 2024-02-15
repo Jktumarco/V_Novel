@@ -1,0 +1,14 @@
+
+
+@back Back_2
+@hidePrinter QuestLog
+@printer QuestLog visible:false wait:false
+
+@char emma.positive_1 look:right pos:80.80 if:emmaIsItem=true
+@showUI ButtonMap
+@char emma.sadness look:right pos:80.80 if:emmaIsItem=false
+@print "Thank you)" printer:Dialogue waitInput:false if:emmaIsItem=true
+@print "Zyyy..." printer:Dialogue waitInput:false if:emmaIsItem=false
+@wait 1
+@hidePrinter  wait:true
+@stop

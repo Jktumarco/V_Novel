@@ -1,0 +1,16 @@
+; English <en> to English <en> localization document for `Room1Choisen` naninovel script
+
+# 2b95f6ca
+; ella: What do you have? Will you share?
+
+# 49b29005
+; emma: I want it too!!!)
+
+# e75741ca
+; @choice "Give to Ella" goto:Room1EllaChoise
+
+# c43b292
+; @choice "To keep for yourself" goto:Room1MyChoise
+
+# e036bca4
+; @choice "Give to Emma" goto:Room1EmmaChoise"

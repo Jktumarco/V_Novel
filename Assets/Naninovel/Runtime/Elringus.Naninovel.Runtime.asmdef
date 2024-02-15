@@ -1,0 +1,57 @@
+{
+    "name": "Elringus.Naninovel.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:26c3782e36cc1874587ef07692accab2",
+        "GUID:88c54edcfcc58e24c8b704cdd7d780e1",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:59ba88a9e30dcfd42b8d45f1d2e5e99b",
+        "GUID:9a04fc0cd4bcc8949aa87b1c87357911",
+        "GUID:d30190c13c15a7746bbd5fe3945d41c1",
+        "GUID:a430c258598825f4a9bd17fda9c6dc4e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Naninovel.Common.dll",
+        "Naninovel.NCalc.dll",
+        "NLayer.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.elringus.spritedicing",
+            "expression": "",
+            "define": "SPRITE_DICING_AVAILABLE"
+        },
+        {
+            "name": "com.elringus.unitygoogledrive",
+            "expression": "",
+            "define": "UNITY_GOOGLE_DRIVE_AVAILABLE"
+        },
+        {
+            "name": "com.unity.addressables",
+            "expression": "",
+            "define": "ADDRESSABLES_AVAILABLE"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "INPUT_SYSTEM_AVAILABLE"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "URP_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}

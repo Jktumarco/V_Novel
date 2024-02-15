@@ -1,0 +1,19 @@
+
+
+@hideUI Log
+@set room_2_currentScript="Room2Empty1"
+@back Back_1
+@char ella.positive_1 look:right pos:20.20 wait:false
+@char emma.positive_1 look:right pos:80.80 wait:false
+@printer Dialogue
+ella: What do you have? Will you share?
+emma: I want it too!!!)
+
+@hidePrinter Dialogue wait:true
+@set "logText=\"Make a choice\""
+@showUI Log
+@choice "Give to Ella" goto:Room1EllaChoise
+@choice "To keep for yourself" goto:Room1MyChoise
+@choice "Give to Emma" goto:Room1EmmaChoise"
+@resetText Dialogue
+@stop

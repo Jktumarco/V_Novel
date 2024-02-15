@@ -1,0 +1,8 @@
+
+
+@back Back_3
+@showItem wait:false
+@showUI Log
+@set "logText=\"Take a gift\""
+
+@stop

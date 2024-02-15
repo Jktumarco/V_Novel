@@ -1,0 +1,5 @@
+@set room_3_available=false
+@set logText="Return to location 2"
+@set room_2_currentScript="Room2Empty"
+@showUI ButtonMap
+@stop

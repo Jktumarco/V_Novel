@@ -1,0 +1,11 @@
+
+
+@back Back_2
+
+@char emma.positive_1 look:right pos:80.80
+@printer Dialogue hideOther:false
+Let's play a game...
+@hidePrinter Dialogue
+@hideUI ButtonMap
+@playGame
+@stop

@@ -1,0 +1,8 @@
+Library/
+Temp/
+Logs/
+.apk
+*.apk
+
+UserSettings/
+UserSettings/Layouts/default-2021.dwlt

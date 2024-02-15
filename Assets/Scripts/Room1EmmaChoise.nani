@@ -1,0 +1,11 @@
+@hideUI Log
+@char emma.positive_2 look:left pos:80.80 wait:true
+
+@char ella.sadness look:right pos:20.20
+@char emma visible:false
+
+@set room_2_currentScript="Room2AfterChoise"
+@set room_1_currentScript="Room1AfterChoise"
+@set emmaIsItem=true
+@showUI ButtonMap
+@stop
